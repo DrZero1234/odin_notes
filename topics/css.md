@@ -59,4 +59,42 @@ CSS
   /* some declarations */
 }
 ```
-Itt a B és a C lesz kiválasztva 
+Itt a B és a C lesz kiválasztva, 
+
+## CSS alapértékek
+
+    + color és background-color - A szín illetve háttérszín megadása
+    + font-family: Betutípus pl. "Times New Roman" vagy "sans-serif"
+    + font-size: Betuméret pixelekben pl. 22px
+    + font-weight: Lehet szám 1-tol 1000-ig vagy kulcsszó pl. bold 
+    + text-align: A szoveg vizszintes pozícionálása kulcsszóval pl. center
+    + Image width és height: Kép szélessége, hosszúsága pixelben, százalékban vagy auto értékkel 
+
+## Selectorok priorutási sorrendje
+
+    1. ID selektor
+    2. Class selektor - Minél tobb class annál elonyosebb a tobbi classhoz képest, ha konfliktus van.
+    3. Típus selektor
+
+## Orokles (Inheritance)
+
+A parent stilusértékei érvényesek a children tagekre kivéve ha a children tageket kulon írjuk. 
+
+```
+<!-- index.html -->
+
+<div id="parent">
+  <div class="child"></div>
+</div>
+
+/* styles.css */
+
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue
+}
+```
+
