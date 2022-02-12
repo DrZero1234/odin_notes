@@ -1,11 +1,20 @@
 # CSS
 
-## Selectorok
+Ha a két bizonyos id-s vagy class-es tagnak ugyanazok a stílusértékeit akkor azokat egy vesszovel elválasztott listába írhatjuk:
+```
 
-  - Unvierzális selektor: Az osszes elemet kiválasztja amit * jellel írunk
+.read,
+.unread{
+    color: white;
+    background-color: black
+}
 
-  ```
-    * {
-        color: purple
-    } 
-  ```
+.read {
+    /* Sajátos stílusértékek */
+}
+
+.unread {
+    /* Sajátos stílusértékek */
+}
+```
+
