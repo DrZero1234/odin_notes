@@ -98,3 +98,12 @@ A parent stilusértékei érvényesek a children tagekre kivéve ha a children t
 }
 ```
 
+## Box Model
+
+Minden egyes dolog a weboldalon egy négyzet alakú doboz
+
+[!Page boxes](../img/boxes.png)
+
+
+
+
