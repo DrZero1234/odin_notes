@@ -109,7 +109,7 @@ A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulá
   + margin - A doboz és a mellette lévo tartalom kozti helyet határozza meg
   + border - A margin és a padding kozé ad helyet.
   
-![box_model](../img/box_model.png)
+![box_model](../img/box-model.png)
 
 
 
