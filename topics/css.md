@@ -105,7 +105,7 @@ Minden egyes dolog a weboldalon egy négyzet alakú doboz
 ![Page boxes](../img/boxes.png)
 
 A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulálni.:
-  + padding - A doboz széle és a benne lévo tartalom kozti helyet határozza meg
+  + padding - A doboz széle és a benne lévo tartalom kozti helyet határozza meg. Értékuk csupán pozitív szám lehet. CSS értékei pedig lehetnek padding-right, top, bottom, left. 
   + border - A margin és a padding kozé ad helyet. border értékei lehetnek border- top, right, bottom, left. A stílusuk pedig lehet border-width, border-style, border-color
   + margin - A doboz és a mellette lévo tartalom kozti helyet határozza meg. Ha a margin éréke negatív akkor az elemek ossze érhetnek egymással. margin értékei lehetnek: margin-top, right, bottom, left
   
@@ -139,10 +139,13 @@ Inline és outer display típusok:
 
 Az inner display ami azt határozza meg hogy a box-ban lévo elemek hogyan vannak elhelyezkedve. Display: flex esetén a kulso display block de az inner display felx lesz.
 
-**A box-sizing**: border-box lehetové teszi hogy a box valódi height es width értéke pontosan x és y legyen mivel alapból a border és padding értéke a box nagyságához van hozzáadva. 
+**A box-sizing: border-box** lehetové teszi hogy a box valódi height es width értéke pontosan x és y legyen mivel alapból a border és padding értéke a box nagyságához van hozzáadva. 
 
+**inline-block**: Ha nem szeretnénk hogy az elem új sorba keruljon de vegye figyelembe a height width értékeket itt jon kepbe az display: inline-block. Ezt legyakrabban a navbarnál a linkek lehelyezésénél használják. 
 
+**Div** - A Div block-level element alapból ami segít az oldalunkat tobb blokkra osztani és tobb elemet egy blokkba gyujteni. 
 
+**span** - Inline element szoveg és inline HTML elemek osszegyujtésére alkalmas amikhez egyben adhatunk hozzá CSS értékeket.
 
 
 
