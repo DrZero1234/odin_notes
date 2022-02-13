@@ -112,16 +112,20 @@ A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulá
 ![box_model](../img/box-model.png)
 
 Kétfajta box típus létezik, block és inline:
+
   Block - pl. a h1 és a p
     + A box egy új sorba kerul
     + A box olyan széles lesz mint a container és a hely 100%-át használja ki.
     + A width és height tulajdonságok számítanak
     + Padding, margin, border tulajdonságok arrébb bokik a tobbi elemet.
+    
   Inline - pl. a span em strong
     + A box nem kerul uj sorba
     + a width és heihgt tulajdonságok nem mukodnek
     + A fuggoleges Padding, margin, border nem boki alrébb a további elemeket.
     + A vizszintes viszont igen
+
+
 
 
 
