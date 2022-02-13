@@ -104,6 +104,12 @@ Minden egyes dolog a weboldalon egy négyzet alakú doboz
 
 ![Page boxes](../img/boxes.png)
 
+A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulálni.:
+  + padding - A doboz széle és a benne lévo tartalom kozti helyet határozza meg
+  + margin - A doboz és a mellette lévo tartalom kozti helyet határozza meg
+  + border - A margin és a padding kozé ad helyet.
+  
+![box_model](../img/box_model.png)
 
 
 
