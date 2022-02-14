@@ -1,4 +1,4 @@
-#Flexbox
+# Flexbox
 
 **Flex container és flex Itemek** - Egy flex container egy bármilyen elem melynek CSS értéke  {display: flex;}. A flex item egy olyan elem amit egy flex container tartlamaz.
 
