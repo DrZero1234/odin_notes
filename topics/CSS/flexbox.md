@@ -28,10 +28,18 @@ A flexbox mukdohet fuggolegesen vagy vizszintesen. Az alapérték a vizszintes a
 Ha a tengely column-ra van állitva akkor a flex-basis nél az auto a height alapján lesz beállátva. 
 
 A flex: 1 tehát az itemeket ugy noveszti vagy zsugorítsa lejjebb hogy egyenloen toltsek be az elerheto helyet. A flex igazán alkalmas olyan itemek elrendezéséhez melynek megadott értéke van. 
-**justify-content** - A main axis alapján álllítja be az itemeket. 
-Az **align-items** pedig a kereszttengely alapján állítja be az itemeket. 
+**justify-content** - A main axis alapján álllítja be az itemeket. Értékei:
+  + flex-start - Az axis elejétol
+  + flex-end - Az axis végétol
+  + center - Az axis kozepetol. 
+  + space-between - A szabad helyet egyenloen elsosztja az itemek kozott.
+  + space-around - Osszes item jobb- és bal oldalán azonos szabad hely. 
+ 
+Az **align-items** pedig a kereszttengely alapján állítja be az itemeket. A flex-start értékkel az itemek a container tetején kezdodnek, flex-end - el a annak alján míg center-el a container kereszttengely kozepén. 
 
 Ha a flex-container flex-directionját átállítjuk columnra akkor a justify-content és align-items viselkedese ellentetes lesz. 
 
-**gap** - Marginhoz hasonloan itt a container itemei kozott hagy helyet. 
+**gap** - Marginhoz hasonloan itt a container itemei kozott hagy helyet.
+
+**flex-wrap:wrap** - Ha az itemek nem férnek el egy sorban akkor tobb sorba lesznek csomagolva. Alapértéke a nowrap. A flex direction és wrap osszetett parancsa a **flex-flow**
 
