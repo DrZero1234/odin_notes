@@ -56,7 +56,8 @@ Ha a flex-direction column akkor az align items es align self az itemeket fel é
 
 ![flex-column](../../img/flex-column.png) 
 
-**align-content** - A sorok kozti helyet osztja szet. Ahhoz hogy ez mukodjon a containernek magasabbnak kell lennie mint az itemeknek. Értékei:
+**align-content** - A kereszttengelyen mudokik. A sorok kozti helyet osztja szet. Ahhoz hogy ez mukodjon a containernek magasabbnak kell lennie mint az itemeknek. Értékei:
+
   + align-content: flex-start
   + align-content: flex-end
   + align-content: center
@@ -64,4 +65,8 @@ Ha a flex-direction column akkor az align items es align self az itemeket fel é
   + align-content: space-around
   + align-content: stretch
   + align-content: space-evenly (not defined in the Flexbox specification)
+  
+**justify-content** - Az align item mukodése a fo tengelyen ennek értékei is ugyanazok. 
+
+**direction** - Az írás irányát adja meg a containeren belul pl. rtl - jobbrol balra, ltr - balról jobbra. 
 
