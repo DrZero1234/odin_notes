@@ -1,4 +1,4 @@
-#JS Alapok
+# JS Alapok
 
 ## Adattípusok
 
