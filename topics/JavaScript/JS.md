@@ -30,3 +30,35 @@
    + **charAt(pozíció)** - A pozícióban lévo karaktert ragadja meg.
    + **charCodeAt(pozíció)** - A pozícióban lévo karakter unicode értékét adja vissza.
    + **string[pozíció]** - Ugyanugy mukodik mint a charAt. 
+   
+## Logikai operátorok
+
+  + **||(OR)** - Ha az egyik feltétel true akkor az OR értéke true egyébként false. Mindig az elso true értéket adja vissza balról jobbra. Ha az osszes érték false akkor az utolso értéket adja vissza. 
+  + **&&(AND)** . Ha az osszes feltétel true akkor ad vissza true-t egyébként false. Az elso false értéket ad vissza ha az osszes érték true akkor az utolsó értéket adja vissza. Az AND elsobbséget élvez az OR-al szemben a végrehajtásnál. 
+  + **!(NOT)**
+  
+**Switch** - Ha egy változó értékét szeretnénk megváltoztatni feltétel szerint vagy csupán printelni szeretnénk akkor erre alkalmas a switch parancs. Felépítése:
+
+```
+switch (expression) {
+  case choice1:
+    run this code
+    break;
+
+  case choice2:
+    run this code instead
+    break;
+
+  // include as many cases as you like
+
+  default:
+    actually, just run this code
+}
+
+```
+
+**Ternary operator** - Feltételt tesztel és egy értéket ad vissza true illetve false esetén.  Felépítése
+```
+( condition ) ? run this code : run this code instead
+``` 
+
