@@ -37,7 +37,7 @@
   + **&&(AND)** . Ha az osszes feltétel true akkor ad vissza true-t egyébként false. Az elso false értéket ad vissza ha az osszes érték true akkor az utolsó értéket adja vissza. Az AND elsobbséget élvez az OR-al szemben a végrehajtásnál. 
   + **!(NOT)**
   
-**Switch** - Ha egy változó értékét szeretnénk megváltoztatni feltétel szerint vagy csupán printelni szeretnénk akkor erre alkalmas a switch parancs. Felépítése:
+**Switch** - Ha egy változó értékét szeretnénk megváltoztatni feltétel szerint vagy csupán printelni szeretnénk akkor erre alkalmas a switch parancs. Ha egy változónál  például koztes érték alapján szeretnénk eredményt változtatni azt egy switch(true)- n belul a változó értékét ellenorizve tehetjuk meg. Tobb case-t egymás alá is lehet írni és egy eredményt ad vissza ezen esetekként. Felépítése:
 
 ```
 switch (expression) {
