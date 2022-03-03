@@ -60,5 +60,12 @@ switch (expression) {
 **Ternary operator** - Feltételt tesztel és egy értéket ad vissza true illetve false esetén.  Felépítése
 ```
 ( condition ) ? run this code : run this code instead
-``` 
+```
+
+**Fuggvények**
+
+Alap paraméter - fuggvénynév (param = alapérték)
+Arrow fuggvény - (param) => {kód} Az anonymus fuggvények rovidített változaza. Ha csak egy paraméter van akkor a zárójelre nincs szukség.  
+
+
 
