@@ -66,6 +66,36 @@ switch (expression) {
 
 Alap paraméter - fuggvénynév (param = alapérték)
 Arrow fuggvény - (param) => {kód} Az anonymus fuggvények rovidített változaza. Ha csak egy paraméter van akkor a zárójelre nincs szukség.  
+változó ?? másik érték - Ha a változó értéke falsy vagy undefinde akkor a másik érték legyen érvényes.
+
+ 
+Ha return-t írunk érték nélkul akkor az kilép a fuggvénybol. 
+
+
+**Function Expression** - Létrehozása: **változó = fuggveny(){fuggvgény kódja}**. Egy fuggvény egy érték fuggetlenul hogy lett az létrehozva. **Egy Function expression akkor lesz létrehozva amikor a végrehajtás eléri és attol a pillanattól kezdve használható lesz.** Egy fuggvény Declaration a létrehozás elott is hívható. **Function Declaration egy kód blokkon ({}) belul látható kívulrol viszont nem.** 
+
+**Call Stack** - LIFO-t (Last in First Out) - t használ. Amikor végrehajtunk egy scriptet az engine egy Global Execution Context-et hoz létre és a stack tetejére helyezi a scriptet. Ha egy fuggvény egy másik fuggvényt hív akkor az engine egy fuggvény execution context-et hoz létre a hívott fuggvényhez és a call stack tetejére helyezi azt. Ha a jelenlegi fuggvény végrehajtása befejezodott a call stackbol kitorlodik és folytatja a végrehajtást. Példa. 
+
+```
+
+function add(a, b) {
+    return a + b;
+}
+
+function average(a, b) {
+    return add(a, b) / 2;
+}
+
+let x = average(10, 20);
+
+```
+Ennek a kódnak a végrehajtási sorrendje. 
+
+![Call Stack](../img/call-stack.png)
+
+A JavaScript egy single-threaded (egyszálas) programozási nyelv, ami azt jelenti hogy csak egy call stackje van igy egyszerre csak egy dolgot hajt végre. 
+
+
 
 
 
