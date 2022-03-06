@@ -91,7 +91,7 @@ let x = average(10, 20);
 ```
 Ennek a kódnak a végrehajtási sorrendje. 
 
-![Call Stack](../img/call-stack.png)
+![Call Stack](../../img/call-stack.png)
 
 A JavaScript egy single-threaded (egyszálas) programozási nyelv, ami azt jelenti hogy csak egy call stackje van igy egyszerre csak egy dolgot hajt végre. 
 

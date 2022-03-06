@@ -102,7 +102,7 @@ A parent stilusértékei érvényesek a children tagekre kivéve ha a children t
 
 Minden egyes dolog a weboldalon egy négyzet alakú doboz
 
-![Page boxes](../img/boxes.png)
+![Page boxes](../../img/boxes.png)
 
 A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulálni.:
   + padding - A doboz széle és a benne lévo tartalom kozti helyet határozza meg. Értékuk csupán pozitív szám lehet. CSS értékei pedig lehetnek padding-right, top, bottom, left. 
@@ -111,7 +111,7 @@ A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulá
   
 **Margin Collapse** -  Ha két elem margin-ja érintkezik akkor egy marginná válnak és a legnagyobb margin értéke lesz érvényes. Ha az egyik margin értéke negatív akkor az ki lesz vonva a total marginból. Ha mindketto negatív akkor a legalacsonyabb margin érték lesz érvényes
   
-![box_model](../img/box-model.png)
+![box_model](../../img/box-model.png)
 
 Gyakori példa hogy a globális html értéken belul box-sizing értékét border-box - ra állítják
 
