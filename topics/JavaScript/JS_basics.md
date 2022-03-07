@@ -95,6 +95,14 @@ Ennek a kódnak a végrehajtási sorrendje.
 
 A JavaScript egy single-threaded (egyszálas) programozási nyelv, ami azt jelenti hogy csak egy call stackje van igy egyszerre csak egy dolgot hajt végre. 
 
+## Arrays
+
+JS-el az arrayok az array nevével lehet hozzáférni. pl. 
+```
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+```
+
 
 
 
