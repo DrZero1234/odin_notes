@@ -95,13 +95,46 @@ Ennek a kódnak a végrehajtási sorrendje.
 
 A JavaScript egy single-threaded (egyszálas) programozási nyelv, ami azt jelenti hogy csak egy call stackje van igy egyszerre csak egy dolgot hajt végre. 
 
-## Arrays
+## Array és Objectek
+
+**Mikor használjunk arrayt és mikor Objectet?**
+  + JavaScript nem támogatja az associative arrayokat
+  + Objectet akkor használjhunk ha az elem nevének stringet szeretnénk hozzárendelni
+  + Arrayt pedig ha az elemeket számhoz szeretnénk hozzárendelni
+  
+**Array parancsok**
 
 JS-el az arrayok az array nevével lehet hozzáférni. pl. 
 ```
 const cars = ["Saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML = cars;
 ```
+**Array.isArray(array_név)** - True vagy false értéket ad vissza ha az érték array típusú, ezt ugyanúgy meg lehet állapátani az **array_név instanceof Array** parancssal. 
+**array_név.toString()** - Az array értékeit stringé válotztajta az osszes elemet vesszovel elválasztva. Erre alkalmas a **array_név.join(elválasztó karakter)** de itt meg lehet adni egy elválasztó karaktert. 
+**array1.concat(array2....arrayn)** - Két array elemeinek egy arrayba való helyezése, ez a parancs új arrayt ad vissza 
+
+**arr.splice(start [, deleteCount,elem1, elem2……..elemN]** – az array-t a startól módosítja és törli a deleteCount-ig és behelyettesít elem1,elem2…… elemeket a helyükre, pl.
+
+```
+let arr = ["I", "study", "JavaScript"];
+
+arr.splice(1, 1); // from index 1 remove 1 element
+
+alert( arr ); // ["I", "JavaScript"] 
+```
+Az első indextől kitöröl 1 elemet. 
+
+```
+let arr = ["I", "study", "JavaScript", "right", "now"];
+
+// remove 3 first elements and replace them with another
+arr.splice(0, 3, "Let's", "dance");
+
+alert( arr ) // now ["Let's", "dance", "right", "now"]
+```
+Kitöröl 0-tól 3 elemet és a helyükre 2 új elemet illeszt be. A splice a törölt elemeket returnoli. Elemek beillesztéséhez törlés nélkül a deleteCount értéket 0-ra kell írni.
+
+**arr.slice([start],[end])**  - Egy új array-t hoz létre ami átmásolja a start és end közti elemeket nem beleértve az endet. Az arr.slice() argumentek nélkül az arr lista másolására szokták használni
 
 
 
