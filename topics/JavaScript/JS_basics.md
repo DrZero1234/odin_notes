@@ -136,7 +136,12 @@ Kitöröl 0-tól 3 elemet és a helyükre 2 új elemet illeszt be. A splice a t�
 
 **arr.slice([start],[end])**  - Egy új array-t hoz létre ami átmásolja a start és end közti elemeket nem beleértve az endet. Az arr.slice() argumentek nélkül az arr lista másolására szokták használni
 
+**Loop parancsok**
 
+**map()** - Az osszes array-on beluli itemmel muveletet hajt végre és egy új arrayt vagy collection-t hoz létre. pl. array_név.map(function_név)
+**filter()** - Az osszes elemen osszehasonlítást hajt végre és az osszehasonlítás alapján uj array-t hoz létre. pl. array_név.filter(feltétel)
+
+**loop label name** - Ha pl. nestelt loopból szeretnénk kilépni ez hasznos lehet pl. label_név loop () és késobb a break után írjuk be a label_nevet. 
 
 
 
