@@ -113,7 +113,7 @@ A dobozok nagyságát és kozte lévo helyet tobbféleképpen is lehet manipulá
   
 ![box_model](../../img/box-model.png)
 
-Gyakori példa hogy a globális html értéken belul box-sizing értékét border-box - ra állítják
+**Gyakori példa hogy a globális html értéken belul box-sizing értékét border-box - ra állítják**
 
 ```
   html {
